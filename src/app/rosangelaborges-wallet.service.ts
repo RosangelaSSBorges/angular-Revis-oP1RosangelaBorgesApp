@@ -40,7 +40,7 @@ export class RosangelaborgesWalletService {
      this.updateBitCoinRates();
      setInterval(() =>{     
       this.updateBitCoinRates();
-    }, 10000);
+    }, 0000);
 
     
    }
