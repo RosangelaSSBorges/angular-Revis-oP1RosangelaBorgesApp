@@ -1,0 +1,20 @@
+<h1>RosangelaBorgesApp</h1>
+
+<a [routerLink]="['/currency']">Cotações</a> |
+<a [routerLink]="['/wallet']">Carteira</a> |
+<span *ngIf="wallet.diff>0" style="color:green">↑</span>
+<span *ngIf="wallet.diff<0" style="color:red">↓</span>
+<router-outlet></router-outlet>
+
+<br/>
+
+  Rosângela Da Silva Santana Borges |
+  
+   RA: 0050831921038 |
+  
+    
+    <a href="https://github.com/RosangelaSSBorges"
+      >github.com/RosangelaSSBorges</a
+    >
+ 
+<hr />
